@@ -9,7 +9,7 @@ body {
 /* HEADER */
 /* navbar */
 .header {
-    border: 2px solid red;
+    border: 3px solid blue;
     background-color: #1f2937;
 }
 
@@ -46,17 +46,27 @@ ul {
 .awesome {
     height: 150px;
     border: 2px solid green;
+    display: flex;
+}
+
+.awesome1 {
+    border: 3px dotted orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .title {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
-}
-
+ }
 .subtext {
     color: #e5e7eb;
     font-size: 18px;
-}
-    
+ }
+
+ .awesome2 {
+    border: 3px dotted purple;
+ }
     
