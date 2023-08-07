@@ -1,5 +1,13 @@
 /* styles.css for landing page index.html */
+body {
+    margin: 0;
+    padding: 0;
+}
 
+
+
+/* HEADER */
+/* navbar */
 .header {
     border: 2px solid red;
     background-color: #1f2937;
@@ -7,27 +15,22 @@
 
 .navbar {
     height: 75px;
-    border: 1px solid green;
     display: flex;
     justify-content: space-around;
     align-items: flex-start;
 }
 
-.logo {
-    
+.logo {   
     color: #f9faf8;
     font-size: 24px;
     margin: 0;
     padding: 0;
-    
-
 }
 
 a {
     text-decoration: none;
     color: #e5e7eb;
     font-size: 18px;
-    
 }
 
 ul {
@@ -38,6 +41,22 @@ ul {
     gap: 16px;
 }
 
+/* HEADER */
+/* awesome */
+.awesome {
+    height: 150px;
+    border: 2px solid green;
+}
 
+.title {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #f9faf8;
+}
+
+.subtext {
+    color: #e5e7eb;
+    font-size: 18px;
+}
     
     
