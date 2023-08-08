@@ -4,12 +4,8 @@ body {
     padding: 0;
 }
 
-
-
-/* HEADER */
-/* navbar */
 .header {
-    border: 3px solid blue;
+    border: 3px solid yellow;
     background-color: #1f2937;
 }
 
@@ -41,11 +37,7 @@ ul {
     gap: 16px;
 }
 
-/* HEADER */
-/* awesome */
 .awesome {
-    
-    border: 2px solid green;
     display: flex;
     padding: 10px 100px;
     margin-bottom: 75px;
@@ -53,28 +45,26 @@ ul {
 
 .awesome1 {
     width: 50%;
-    border: 3px dotted orange;
     display: flex;
     flex-direction: column;
     align-items: start;
     gap: 5px;
-    
-    
+    padding-right: 10px;
+}
+
+.a_subtext {
+    font-size: 18px;
+    color: #e5e7eb;
 }
 
 .title {
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: bolder;
     color: #f9faf8;
     line-height: 35px;
  }
-.subtext {
-    color: #e5e7eb;
-    font-size: 18px;
- }
 
  .awesome2 {
-    border: 3px dotted purple;
     background-color: gray;
     color: white;
     width: 50%;
@@ -87,5 +77,5 @@ ul {
     background-color: #3882f6;
     color: white;
     border-radius: 5px;
-    padding: 5px 10px;
+    padding: 5px 15px;
  }
