@@ -44,22 +44,29 @@ ul {
 /* HEADER */
 /* awesome */
 .awesome {
-    height: 150px;
+    
     border: 2px solid green;
     display: flex;
+    padding: 10px 100px;
+    margin-bottom: 75px;
 }
 
 .awesome1 {
+    width: 50%;
     border: 3px dotted orange;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
+    gap: 5px;
+    
+    
 }
 
 .title {
     font-size: 48px;
     font-weight: extra-bold;
     color: #f9faf8;
+    line-height: 35px;
  }
 .subtext {
     color: #e5e7eb;
@@ -68,5 +75,17 @@ ul {
 
  .awesome2 {
     border: 3px dotted purple;
+    background-color: gray;
+    color: white;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
  }
-    
+
+ button {
+    background-color: #3882f6;
+    color: white;
+    border-radius: 5px;
+    padding: 5px 10px;
+ }
