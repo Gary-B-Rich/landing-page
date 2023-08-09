@@ -90,7 +90,6 @@ ul {
  }
 
  .boxes {
-    border: 1px dashed red;
     display: flex;
     padding: 0 200px;
     justify-content: space-between;
@@ -106,4 +105,13 @@ ul {
 
  .box_text {
     display: flex;
+    justify-content: space-between;
+    margin: 0 200px;
+    padding-top: 5px;
+    margin-bottom: 50px;
+    font-size: 10px;
+ }
+
+ .subtext {
+    width: 100px;
  }
