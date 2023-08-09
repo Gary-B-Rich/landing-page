@@ -142,7 +142,6 @@ ul {
  }
 
  .action_container {
-    border: 2px solid red;
     height: 200px;
     display: flex;
  }
@@ -161,11 +160,20 @@ ul {
 
  .call {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 18px;
+ }
+
+ .sign_up {
+    font-size: 12px;
  }
 
  .action_right {
-    border: 3px solid green;
+    width: 35%;
+    display: flex;
+    align-items: center;
+    background-color: #3882f6;
+    margin: 50px 100px 50px 0;
+    border-radius: 0 10px 10px 0;
  }
 
  
