@@ -1,8 +1,10 @@
 /* styles.css for landing page index.html */
+
 body {
     margin: 0;
     padding: 0;
     font-family: roboto, sans-serif;
+    max-width: 1000px;
 }
 
 .header {
@@ -54,12 +56,12 @@ ul {
 }
 
 .a_subtext {
-    font-size: 18px;
+    font-size: 15px;
     color: #e5e7eb;
 }
 
 .title {
-    font-size: 48px;
+    font-size: 44px;
     font-weight: bolder;
     color: #f9faf8;
     line-height: 35px;
@@ -117,8 +119,7 @@ ul {
  }
 
  .inspiring {
-    border: 1px dashed red;
-    height: 200px;
+    height: 225px;
     background-color: #e5e7eb;
     display: flex;
     flex-direction: column;
@@ -128,14 +129,12 @@ ul {
  }
 
  .quote {
-    border: 1px solid orangered;
     font-size: 25px;
     font-style: italic;
     color: #1f2937;
  }
 
  .thor {
-    border: 1px solid purple;
     font-weight: 700;
     color: #1f2937;
     align-self: flex-end;
