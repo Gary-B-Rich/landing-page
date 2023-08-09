@@ -115,3 +115,28 @@ ul {
  .subtext {
     width: 100px;
  }
+
+ .inspiring {
+    border: 1px dashed red;
+    height: 200px;
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 15px 200px;
+ }
+
+ .quote {
+    border: 1px solid orangered;
+    font-size: 25px;
+    font-style: italic;
+    color: #1f2937;
+ }
+
+ .thor {
+    border: 1px solid purple;
+    font-weight: 700;
+    color: #1f2937;
+    align-self: flex-end;
+ }
