@@ -81,6 +81,7 @@ ul {
     color: white;
     border-radius: 5px;
     padding: 5px 17px;
+    
  }
 
  .random {
@@ -138,4 +139,21 @@ ul {
     font-weight: 700;
     color: #1f2937;
     align-self: flex-end;
+ }
+
+ .action_container {
+    border: 2px solid red;
+    height: 200px;
+    display: flex;
+ }
+
+ .action_left {
+    border: 2px dotted green;
+    width: 60%;
+    background-color: #3882f6;
+    margin: 50px 0 50px 100px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
  }
