@@ -1,6 +1,7 @@
 /* styles.css for landing page index.html */
 
 body {
+    border: 3px solid purple;
     margin: 0;
     padding: 0;
     font-family: roboto, sans-serif;
@@ -61,7 +62,7 @@ ul {
 }
 
 .title {
-    font-size: 44px;
+    font-size: 40px;
     font-weight: bolder;
     color: #f9faf8;
     line-height: 35px;
