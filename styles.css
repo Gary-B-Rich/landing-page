@@ -148,12 +148,24 @@ ul {
  }
 
  .action_left {
-    border: 2px dotted green;
-    width: 60%;
+    width: 50%;
     background-color: #3882f6;
     margin: 50px 0 50px 100px;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    padding-left: 100px;
+    border-radius: 10px 0 0 10px;
  }
+
+ .call {
+    font-weight: bold;
+    font-size: 20px;
+ }
+
+ .action_right {
+    border: 3px solid green;
+ }
+
+ 
